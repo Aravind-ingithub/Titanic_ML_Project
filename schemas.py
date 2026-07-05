@@ -5,8 +5,8 @@ from pydantic import BaseModel
 
 class Passenger(BaseModel):
 
-    Pclass: int
-    Sex: str
+    pclass: int
+    sex: str
 
-    Age: Optional[float] = None
-    Fare: Optional[float] = None
+    age: Optional[float] = None
+    fare: Optional[float] = None
